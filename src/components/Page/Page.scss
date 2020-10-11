@@ -1,0 +1,19 @@
+.page {
+  flex: 1;
+  margin-top: 64px;
+  display: flex;
+  &__body {
+    padding: 1rem;
+    flex: 1;
+    background-color: #f4f6f8;
+  }
+  &__sidebar {
+    padding: 0.5rem 1rem;
+    width: 300px;
+    display: flex;
+  }
+
+  &--no-header {
+    margin-top: 0;
+  }
+}
