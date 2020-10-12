@@ -1,0 +1,11 @@
+.projects {
+  &__actions,
+  &__filters {
+    margin-bottom: 1rem;
+  }
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

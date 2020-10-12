@@ -1,16 +1,16 @@
 import React from "react";
 
 //App
-import { DashboardLayout } from "../../layouts";
+import { Page } from "../../components";
 
 //Styles
 import "./Documentation.scss";
 
 function Documentation() {
   return (
-    <DashboardLayout>
+    <Page>
       <div className="documentation">Documentation</div>
-    </DashboardLayout>
+    </Page>
   );
 }
 

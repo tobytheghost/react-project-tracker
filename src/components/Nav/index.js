@@ -67,6 +67,14 @@ function Nav() {
             <ListItemText primary="Sales & Quotes" />
           </ListItem>
         </Link>
+        <Link to="/clients">
+          <ListItem button key="clients">
+            <ListItemIcon>
+              <PeopleIcon />
+            </ListItemIcon>
+            <ListItemText primary="Clients" />
+          </ListItem>
+        </Link>
         <Link to="/monthly-contracts">
           <ListItem button key="monthly-contracts">
             <ListItemIcon>
@@ -92,14 +100,6 @@ function Nav() {
               <BuildIcon />
             </ListItemIcon>
             <ListItemText primary="Tools" />
-          </ListItem>
-        </Link>
-        <Link to="/clients">
-          <ListItem button key="clients">
-            <ListItemIcon>
-              <PeopleIcon />
-            </ListItemIcon>
-            <ListItemText primary="Clients" />
           </ListItem>
         </Link>
         <Link to="/settings">

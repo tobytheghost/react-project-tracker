@@ -6,11 +6,57 @@
     padding: 1rem;
     flex: 1;
     background-color: #f4f6f8;
+    height: calc(100vh - 64px);
+    overflow-y: scroll;
   }
   &__sidebar {
     padding: 0.5rem 1rem;
     width: 300px;
     display: flex;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  &__actions,
+  &__filters {
+    margin-bottom: 1rem;
+    form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  &__actions {
+    min-height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__filter-users,
+  &__filter-options {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    padding: 6px 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+  }
+
+  &__row {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__col {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    &--half {
+      width: 50%;
+    }
+    &--third {
+      width: 33.3333%;
+    }
   }
 
   &--no-header {

@@ -1,16 +1,16 @@
 import React from "react";
 
 //App
-import { DashboardLayout } from "../../layouts";
+import { Page } from "../../components";
 
 //Styles
 import "./Settings.scss";
 
 function Settings() {
   return (
-    <DashboardLayout>
+    <Page>
       <div className="settings">Settings</div>
-    </DashboardLayout>
+    </Page>
   );
 }
 

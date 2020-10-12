@@ -1,16 +1,16 @@
 import React from "react";
 
 //App
-import { DashboardLayout } from "../../layouts";
+import { Page } from "../../components";
 
 //Styles
 import "./Tools.scss";
 
 function Tools() {
   return (
-    <DashboardLayout>
+    <Page>
       <div className="tools">Tools</div>
-    </DashboardLayout>
+    </Page>
   );
 }
 

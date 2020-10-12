@@ -1,3 +1,4 @@
+// Main Pages
 import Account from "./Account";
 import Clients from "./Clients";
 import Documentation from "./Documentation";
@@ -10,6 +11,10 @@ import Projects from "./Projects";
 import SalesQuotes from "./SalesQuotes";
 import Settings from "./Settings";
 import Tools from "./Tools";
+
+// Sub Pages
+import Client from "./Clients/Client";
+import MonthlyContract from "./MonthlyContracts/MonthlyContract";
 
 export {
   Account,
@@ -24,4 +29,6 @@ export {
   SalesQuotes,
   Settings,
   Tools,
+  Client,
+  MonthlyContract,
 };

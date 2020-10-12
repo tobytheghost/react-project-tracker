@@ -12,3 +12,62 @@
     flex: 1;
   }
 }
+
+.modal {
+  &__container {
+  }
+  &__row {
+    display: flex;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+  &__col {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    > div {
+      width: 100%;
+      margin-top: 16px;
+    }
+    &--half {
+      width: 50%;
+    }
+  }
+  &__title {
+    margin-bottom: 1rem;
+  }
+}
+
+.breadcrumbs {
+  a {
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+td.MuiTableCell-body,
+th.MuiTableCell-body {
+  > button {
+    margin-left: 0.5rem;
+  }
+  > button:first-child {
+    margin-left: 0rem;
+  }
+  > a {
+    color: initial;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+button {
+  a {
+    color: initial;
+    text-decoration: none;
+  }
+}
